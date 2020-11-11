@@ -1,0 +1,21 @@
+*               text=auto
+*.png           binary
+*.jpg           binary
+*.jpeg          binary
+*.gif           binary
+*.tif           binary
+*.tiff          binary
+*.ico           binary
+*.sh            text eol=lf
+*.patch         -text
+.gitattributes  export-ignore
+.gitignore      export-ignore
+*.htm           text diff=html
+*.html          text diff=html
+*.php           text diff=php
+*.scss          text diff=css
+*.gitattributes linguist-language=gitattributes
+*.css           linguist-vendored
+*.scss          linguist-vendored
+*.js            linguist-vendored
+CHANGELOG.md    export-ignore

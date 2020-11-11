@@ -1,0 +1,8 @@
+vendor/
+cov/
+*.lock
+.phpunit.result.cache
+.idea
+.php_cs_cache
+package-lock.json
+*.log
